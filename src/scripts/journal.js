@@ -7,3 +7,4 @@ const journalEntry = {
 
 const entries = [];
 
+entries.push(journalEntry);
