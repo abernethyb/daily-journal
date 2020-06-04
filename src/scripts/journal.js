@@ -1,10 +1,17 @@
-const journalEntry = {
-    date: "",
-    concepts: "",
-    entry: "",
-    mood: ""
-};
+const journalConverter = (journalObject) => {
 
-const entries = [];
+    const journalHTMLRepresentation = `
+    <section class="entryLog">
+        <div class="log">
+            <ul>
+                <li>Date: ${journalObject.date}</li>
+                <li>Concepts Covered: ${journalObject.concepts}</li>
+                <li>Journal Entry: ${journalObject.entry}</li>
+                <li>Mood: ${journalObject.mood}</li>
+            </ul>
+        </div>
+    </section>`
 
-entries.push(journalEntry);
+    return journalHTMLRepresentation
+
+}
