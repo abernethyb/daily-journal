@@ -1,6 +1,6 @@
 const journalList = () => {
-    // Iterate the collection of quore objects
-    for (const currentJournalObject of journalCollection) {
+    // Iterate the collection of objects
+    for (const currentJournalObject of entries) {
 
         // Convert the current journal entry to its HTML representation
         const journalHTML = journalConverter(currentJournalObject)
