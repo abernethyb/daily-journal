@@ -1,27 +1,22 @@
-const entries = [
-    {
-    date: "06/04/2020",
-    concepts: "xxx",
-    entry: "xxx",
-    mood: "xxx"
-},
-{
-    date: "06/03/2020",
-    concepts: "xxx",
-    entry: "xxx",
-    mood: "xxx"
-},
-{
-    date: "06/02/2020",
-    concepts: "xxx",
-    entry: "xxx",
-    mood: "xxx"
-},
-{
-    date: "06/01/2020",
-    concepts: "xxx",
-    entry: "xxx",
-    mood: "xxx"
-}
-];
 
+let entries = []
+
+
+
+const API = {
+    getJournalData () {
+        return fetch("http://localhost:3000/entries").then(
+            (response) => {
+                return response.json()
+            }
+        )
+        .then(
+            (entriesArray) => {
+                entries = entriesArray
+            }
+        )
+    }
+
+}
+
+export { entries, API };
