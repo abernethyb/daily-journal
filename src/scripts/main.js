@@ -1,4 +1,4 @@
-getJournalData().then(
+API.getJournalData().then(
     () => {
         journalList()
     }
