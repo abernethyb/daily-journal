@@ -1,5 +1,5 @@
 API.getJournalData().then(
     () => {
-        journalList()
+        DOMPush.journalList()
     }
 )
