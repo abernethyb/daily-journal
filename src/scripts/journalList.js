@@ -1,8 +1,10 @@
 
+import HTMLMaker from "./journal.js"
+
 const DOMPush = {
-    journalList () {
+    journalList (entryObject) {
         // Iterate the collection of objects
-        for (const currentJournalObject of entries) {
+        for (const currentJournalObject of entryObject) {
     
             // Convert the current journal entry to its HTML representation
             const journalHTML = HTMLMaker.journalConverter(currentJournalObject)
@@ -16,3 +18,5 @@ const DOMPush = {
     }
 }
 
+
+export default DOMPush

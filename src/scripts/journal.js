@@ -18,3 +18,5 @@ const HTMLMaker = {
     
     }
 }
+
+export default HTMLMaker

@@ -1,5 +1,5 @@
-let entries = [];
 
+let entries = []
 
 
 
@@ -18,3 +18,5 @@ const API = {
     }
 
 }
+
+export { entries, API };
