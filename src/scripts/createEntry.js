@@ -1,11 +1,12 @@
 
 
-let initialId = 1
+//let initialId = 5
 
-const recordEntry = (day, concept, entries, feeling, idset = initialId += 1) => ({
+const recordEntry = (day, concept, entries, feeling) => ({
     date: day,
     concepts: concept,
     entry: entries,
-    mood: feeling,
-    id: idset
+    mood: feeling
 })
+
+export default recordEntry
