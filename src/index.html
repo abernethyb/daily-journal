@@ -7,43 +7,48 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <form action="">
-        <section class="date">
-            <fieldset>
-                <label for="date">date</label>
-                <input type="date" name="date" id="date">
-            </fieldset>
-        </section>
-        <section class="concepts">
-            <fieldset>
-                <label for="concepts">Concepts Covered:</label>
-                <input type="text" name="concepts" id="concepts">
-            </fieldset>
-        </section>
-        <section class="entry">
-            <fieldset>
-                <label for="entry">Journal Entry:</label>
-                <textarea name="entry" id="entry" cols="100" rows="10"></textarea>
-            </fieldset>
-        </section>
-        <section class="mood">
-            <fieldset>
-                <label for="mood">Mood:</label>
-                <select name="mood" id="mood">
-                    <option value="happy">Happy</option>
-                    <option value="sad">Sad</option>
-                    <option value="confused">Confused</option>
-                    <option value="tired">Just Plain Tired</option>
-                    <option value="complicated">It's complicated</option>
-                </select>
-            </fieldset>
-        </section>
-        <section>
-            <fieldset>
-                <input type="submit" value="Record Entry">
-            </fieldset>
-        </section>
-    </form>
+    <article class="entryForm">
+        <form action="">
+            <section class="date">
+                <fieldset>
+                    <label for="date">date</label>
+                    <input type="date" name="date" id="date">
+                </fieldset>
+            </section>
+            <section class="concepts">
+                <fieldset>
+                    <label for="concepts">Concepts Covered:</label>
+                    <input type="text" name="concepts" id="concepts">
+                </fieldset>
+            </section>
+            <section class="entry">
+                <fieldset>
+                    <label for="entry">Journal Entry:</label>
+                    <textarea name="entry" id="entry" cols="100" rows="10"></textarea>
+                </fieldset>
+            </section>
+            <section class="mood">
+                <fieldset>
+                    <label for="mood">Mood:</label>
+                    <select name="mood" id="mood">
+                        <option value="happy">Happy</option>
+                        <option value="sad">Sad</option>
+                        <option value="confused">Confused</option>
+                        <option value="tired">Just Plain Tired</option>
+                        <option value="complicated">It's complicated</option>
+                    </select>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    
+                </fieldset>
+
+            </section>
+        </form>
+        <button value="Record Entry" class="saveEntry">Submit</button>
+    </article>
+    
     <article class="entryLog">
         <h1>Entry Log</h1>
 

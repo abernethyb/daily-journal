@@ -1,33 +1,11 @@
 {
-    "entries": [
-        {
-        "id": 1,    
-        "date": "06/04/2020",
-        "concepts": "xxx",
-        "entry": "xxx",
-        "mood": "xxx"
-    },
+  "entries": [
     {
-        "id": 2,
-        "date": "06/03/2020",
-        "concepts": "xxx",
-        "entry": "xxx",
-        "mood": "xxx"
-    },
-    {
-        "id": 3,
-        "date": "06/02/2020",
-        "concepts": "xxx",
-        "entry": "xxx",
-        "mood": "xxx"
-    },
-    {
-        "id": 4,
-        "date": "06/01/2020",
-        "concepts": "xxx",
-        "entry": "xxx",
-        "mood": "xxx"
+      "date": "2020-06-18",
+      "concepts": "test9",
+      "entry": "999I'm baby polaroid gluten-free marfa, lo-fi jianbing yr echo park helvetica actually direct trade paleo DIY pour-over tacos. Waistcoat microdosing locavore cray kombucha dreamcatcher chartreuse succulents snackwave scenester authentic cornhole health goth. Selvage quinoa pinterest, polaroid sartorial readymade pabst taiyaki succulents mumblecore next level locavore. Activated charcoal neutra roof party air plant slow-carb pitchfork knausgaard semiotics kombucha lyft blue bottle yr ethical ennui. Biodiesel hammock art party adaptogen twee hella aesthetic vice la croix readymade enamel pin hoodie VHS fashion axe.",
+      "mood": "confused",
+      "id": 1
     }
-]
+  ]
 }
-
