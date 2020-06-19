@@ -1,10 +1,10 @@
 {
   "entries": [
     {
-      "date": "2020-06-18",
-      "concepts": "test9",
-      "entry": "999I'm baby polaroid gluten-free marfa, lo-fi jianbing yr echo park helvetica actually direct trade paleo DIY pour-over tacos. Waistcoat microdosing locavore cray kombucha dreamcatcher chartreuse succulents snackwave scenester authentic cornhole health goth. Selvage quinoa pinterest, polaroid sartorial readymade pabst taiyaki succulents mumblecore next level locavore. Activated charcoal neutra roof party air plant slow-carb pitchfork knausgaard semiotics kombucha lyft blue bottle yr ethical ennui. Biodiesel hammock art party adaptogen twee hella aesthetic vice la croix readymade enamel pin hoodie VHS fashion axe.",
-      "mood": "confused",
+      "date": "2020-06-19",
+      "concepts": "collecting user input",
+      "entry": "Learned about collecting user input.  The user input is collected inside of a click event.  The data is sent through a factory function and then sent to a json file.  I was initially having synchronicity issues where the journal was only posting some of the time; I do not yet fully understand how the fix worked.  I intend this weekend to gain a better understanding of asynchronous code. ",
+      "mood": "happy",
       "id": 1
     }
   ]
