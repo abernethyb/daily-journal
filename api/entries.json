@@ -6,6 +6,13 @@
       "entry": "Learned about collecting user input.  The user input is collected inside of a click event.  The data is sent through a factory function and then sent to a json file.  I was initially having synchronicity issues where the journal was only posting some of the time; I do not yet fully understand how the fix worked.  I intend this weekend to gain a better understanding of asynchronous code. ",
       "mood": "happy",
       "id": 1
+    },
+    {
+      "date": "2020-06-19",
+      "concepts": "test",
+      "entry": "quick test to make sure everything is still working",
+      "mood": "happy",
+      "id": 2
     }
   ]
 }
