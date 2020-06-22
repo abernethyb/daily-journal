@@ -48,6 +48,8 @@ document.querySelector(".saveEntry").addEventListener("click", event => {
 
     
     API.saveJournalEntry(theUserInputFromUserinputFunction)
+
+    
     
 })
 //let newEntry = recordEntry(date, concepts, entry, mood)

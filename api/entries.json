@@ -13,6 +13,77 @@
       "entry": "quick test to make sure everything is still working",
       "mood": "happy",
       "id": 2
+    },
+    {
+      "date": "2020-06-22",
+      "concepts": "another entry",
+      "entry": "another entry here.",
+      "mood": "complicated",
+      "id": 3
+    },
+    {
+      "date": "2020-06-22",
+      "concepts": "test",
+      "entry": "I'm baby schlitz taxidermy crucifix XOXO readymade truffaut tilde, mixtape tbh bushwick viral hexagon bespoke. Austin adaptogen trust fund poke, post-ironic cold-pressed yr gentrify af ugh tbh vexillologist vegan. Waistcoat swag keffiyeh readymade subway tile. Shaman viral adaptogen, skateboard roof party tilde deep v photo booth portland kitsch iPhone VHS normcore. Pour-over yuccie etsy, beard franzen listicle umami meggings sustainable biodiesel +1 fanny pack cred. Neutra VHS poke portland man braid master cleanse.",
+      "mood": "confused",
+      "id": 4
+    },
+    {
+      "date": "2020-06-22",
+      "concepts": "???",
+      "entry": "!!!!!!!!!!!!!I'm baby schlitz taxidermy crucifix XOXO readymade truffaut tilde, mixtape tbh bushwick viral hexagon bespoke. Austin adaptogen trust fund poke, post-ironic cold-pressed yr gentrify af ugh tbh vexillologist vegan. Waistcoat swag keffiyeh readymade subway tile. Shaman viral adaptogen, skateboard roof party tilde deep v photo booth portland kitsch iPhone VHS normcore. Pour-over yuccie etsy, beard franzen listicle umami meggings sustainable biodiesel +1 fanny pack cred. Neutra VHS poke portland man braid master cleanse.",
+      "mood": "sad",
+      "id": 5
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "",
+      "mood": "happy",
+      "id": 6
+    },
+    {
+      "date": "2020-06-22",
+      "concepts": "???",
+      "entry": "!!!!!!!!!!!",
+      "mood": "tired",
+      "id": 7
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "?????????????????????????",
+      "mood": "happy",
+      "id": 8
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "",
+      "mood": "happy",
+      "id": 9
+    }
+  ],
+  "moods": [
+    {
+      "mood":"happy",
+      "id": 1
+    },
+    {
+      "mood":"sad",
+      "id": 2
+    },
+    {
+      "mood":"confused",
+      "id": 3
+    },
+    {
+      "mood":"tired",
+      "id": 4
+    },
+    {
+      "mood":"complicated",
+      "id": 5
     }
   ]
 }
