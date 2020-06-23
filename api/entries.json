@@ -1,24 +1,24 @@
 {
   "entries": [
     {
-      "date": "2020-06-19",
-      "concepts": "collecting user input",
-      "entry": "Learned about collecting user input.  The user input is collected inside of a click event.  The data is sent through a factory function and then sent to a json file.  I was initially having synchronicity issues where the journal was only posting some of the time; I do not yet fully understand how the fix worked.  I intend this weekend to gain a better understanding of asynchronous code. ",
-      "mood": "happy",
+      "date": "2020-06-23",
+      "concepts": "edit",
+      "entry": "editing",
+      "mood": "1",
       "id": 1
     },
     {
-      "date": "2020-06-19",
-      "concepts": "test",
-      "entry": "quick test to make sure everything is still working",
-      "mood": "happy",
+      "date": {},
+      "concepts": {},
+      "entry": {},
+      "mood": {},
       "id": 2
     },
     {
-      "date": "2020-06-22",
-      "concepts": "another entry",
-      "entry": "another entry here.",
-      "mood": "complicated",
+      "date": {},
+      "concepts": {},
+      "entry": {},
+      "mood": {},
       "id": 3
     },
     {
@@ -29,10 +29,10 @@
       "id": 4
     },
     {
-      "date": "2020-06-22",
-      "concepts": "???",
-      "entry": "!!!!!!!!!!!!!I'm baby schlitz taxidermy crucifix XOXO readymade truffaut tilde, mixtape tbh bushwick viral hexagon bespoke. Austin adaptogen trust fund poke, post-ironic cold-pressed yr gentrify af ugh tbh vexillologist vegan. Waistcoat swag keffiyeh readymade subway tile. Shaman viral adaptogen, skateboard roof party tilde deep v photo booth portland kitsch iPhone VHS normcore. Pour-over yuccie etsy, beard franzen listicle umami meggings sustainable biodiesel +1 fanny pack cred. Neutra VHS poke portland man braid master cleanse.",
-      "mood": "sad",
+      "date": {},
+      "concepts": {},
+      "entry": {},
+      "mood": {},
       "id": 5
     },
     {
@@ -99,10 +99,10 @@
       "id": 14
     },
     {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
+      "date": "2020-06-23",
+      "concepts": "edit",
+      "entry": "editing stuff.  and more stuff",
+      "mood": "5",
       "id": 15
     },
     {

@@ -2,7 +2,7 @@
 import {moods} from "./journalData.js"
 
 
-console.log("hello from journal converter", moods)
+//console.log("hello from journal converter", moods)
 
 
 const HTMLMaker = {

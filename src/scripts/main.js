@@ -4,7 +4,7 @@ import { API } from "./journalData.js"
 import { entries, moods } from "./journalData.js"
 import DOMPush from "./journalList.js"
 import recordEntry from "./createEntry.js"
-import moodList from "./moodList.js"
+import moodData from "./moodList.js"
 //import HTMLMaker from "./journal.js"
 
 /*
@@ -20,7 +20,7 @@ functionThatSendsObjectToAPI
 
 API.getMoodData().then(
     () => {
-        moodList(moods)
+        moodData.moodList(moods)
     }
 )
 
@@ -88,32 +88,39 @@ const journalButtonElement = document.querySelector(".entryLog")
 
 journalButtonElement.addEventListener("click", event => {
     if(event.target.id.startsWith("editEntry--")) {
+        API.getMoodData().then(
+            () => {
+                moodData.editMoodList(moods)
+                //console.log(moodList(moods))
+            }
+        )
         const entryToEdit = event.target.id.split("--")[1];
         let formElement = document.querySelector(`.editEntry--${entryToEdit}`)
         console.log(entryToEdit);
-        formElement.innerHTML += `<p><form action="">
-        <section class="date">
+        formElement.innerHTML += `<form action="">
+        
+        <section class="editDate">
             <fieldset>
-                <label for="date">date</label>
-                <input type="date" name="date" id="date">
+                <label for="editDate">date</label>
+                <input type="date" name="editDate" id="editDate">
             </fieldset>
         </section>
-        <section class="concepts">
+        <section class="editConcepts">
             <fieldset>
-                <label for="concepts">Concepts Covered:</label>
-                <input type="text" name="concepts" id="concepts">
+                <label for="editConcepts">Concepts Covered:</label>
+                <input type="text" name="editConcepts" id="editConcepts">
             </fieldset>
         </section>
-        <section class="entry">
+        <section class="editEntry">
             <fieldset>
-                <label for="entry">Journal Entry:</label>
-                <textarea name="entry" id="entry" cols="100" rows="10"></textarea>
+                <label for="editEntry">Journal Entry:</label>
+                <textarea name="editEntry" id="editEntry" cols="100" rows="10"></textarea>
             </fieldset>
         </section>
-        <section class="mood">
+        <section class="editMood">
             <fieldset>
-                <label for="mood">Mood:</label>
-                <select name="mood" id="mood">
+                <label for="editMood">Mood:</label>
+                <select name="editMood" id="editMood">
                     
                 </select>
             </fieldset>
@@ -124,7 +131,42 @@ journalButtonElement.addEventListener("click", event => {
             </fieldset>
 
         </section>
-    </form></p>`
+        <section id="editFormId">
+            <form>
+                <input type="hidden" id="editId" value="${entryToEdit}" />
+                ...
+            </form>
+        </section>
+    </form>
+    <button value="record__edit" class="saveEditEntry">Save Edit</button>`
+    const userEdit = () => {
+        let newDate = document.querySelector("#editDate").value
+        let newConcepts = document.querySelector("#editConcepts").value
+        let newEntry = document.querySelector("#editEntry").value
+        let newMood = document.querySelector("#editMood").value
+        let editedEntry = recordEntry(newDate, newConcepts, newEntry, newMood)
+        return editedEntry
+    }
+
+    document.querySelector(".saveEditEntry").addEventListener("click", event => {
+        let userEditVariable = userEdit()
+        console.log(userEditVariable)
+        API.editEntry(entryToEdit, userEditVariable).then (
+            () => {
+                API.getJournalData().then(
+                    () => {
+                        DOMPush.journalList(entries)
+                    }
+                )
+            }
+        )
+        
+    })
+    
+    
+
+    //day, concept, entries, feeling newDate, newConcepts, newEntry, newMood
+    
 
         // API.getSingleSweet(entryToEdit)
         // .then(entryObject => updateFormFields(entryObject));
