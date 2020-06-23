@@ -38,14 +38,14 @@ const API = {
             body: JSON.stringify(newEntryObject)
         }).then(response => response.json())
     },
-    EditEntry: (id, updatedEntryObject) => {
+    editEntry: (id, editEntryObject) => {
 		return fetch("http://localhost:3000/entries", {
 			method: "PUT",
         	headers: {
             "Content-Type": "application/json"
         	},
-        	body: JSON.stringify(updatedSweetObj)
-		})
+        	body: JSON.stringify(editEntryObject)
+		})}
 }
 
 

@@ -67,19 +67,69 @@ document.querySelector(".saveEntry").addEventListener("click", event => {
     
 })
 
-let radioElements = document.getElementsByName("radio__mood")
+// let radioElements = document.getElementsByName("radio__mood")
 
 
-radioElements.forEach(
-    () =>{
-        addEventListener("click", event => {
-            const moodFilter = event.target.id
-            console.log(moodFilter)
-            moodFilter.filter()
+// radioElements.forEach(
+//     () =>{
+//         addEventListener("click", event => {
+//             const moodFilter = event.target.id
+//             console.log(moodFilter)
+//             moodFilter.filter()
 
-        })
+//         })
+//     }
+// )
+
+
+//event listener for edit
+
+const journalButtonElement = document.querySelector(".entryLog")
+
+journalButtonElement.addEventListener("click", event => {
+    if(event.target.id.startsWith("editEntry--")) {
+        const entryToEdit = event.target.id.split("--")[1];
+        let formElement = document.querySelector(`.editEntry--${entryToEdit}`)
+        console.log(entryToEdit);
+        formElement.innerHTML += `<p><form action="">
+        <section class="date">
+            <fieldset>
+                <label for="date">date</label>
+                <input type="date" name="date" id="date">
+            </fieldset>
+        </section>
+        <section class="concepts">
+            <fieldset>
+                <label for="concepts">Concepts Covered:</label>
+                <input type="text" name="concepts" id="concepts">
+            </fieldset>
+        </section>
+        <section class="entry">
+            <fieldset>
+                <label for="entry">Journal Entry:</label>
+                <textarea name="entry" id="entry" cols="100" rows="10"></textarea>
+            </fieldset>
+        </section>
+        <section class="mood">
+            <fieldset>
+                <label for="mood">Mood:</label>
+                <select name="mood" id="mood">
+                    
+                </select>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                
+            </fieldset>
+
+        </section>
+    </form></p>`
+
+        // API.getSingleSweet(entryToEdit)
+        // .then(entryObject => updateFormFields(entryObject));
     }
-)
+})
 
 // addEventListener("click", event => {
 //     const moodFilter = event.target.value

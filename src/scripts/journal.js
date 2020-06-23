@@ -20,6 +20,7 @@ const HTMLMaker = {
                     <button id="editEntry--${journalObject.id}">Edit</button>
                 </ul>
             </div>
+            <div class="editEntry--${journalObject.id}"></div>
         </section>`
     
         return journalHTMLRepresentation
