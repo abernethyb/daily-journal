@@ -1,5 +1,6 @@
 
 let entries = []
+let moods = []
 
 
 
@@ -16,6 +17,18 @@ const API = {
             }
         )
     },
+    getMoodData () {
+        return fetch("http://localhost:3000/moods").then(
+            (response) => {
+                return response.json()
+            }
+        )
+        .then(
+            (moodsArray) => {
+                moods = moodsArray
+            }
+        )
+    },
     saveJournalEntry: (newEntryObject) => {
         return fetch("http://localhost:3000/entries", {
             method: "POST",
@@ -24,9 +37,17 @@ const API = {
             },
             body: JSON.stringify(newEntryObject)
         }).then(response => response.json())
-    }
+    },
+    EditEntry: (id, updatedEntryObject) => {
+		return fetch("http://localhost:3000/entries", {
+			method: "PUT",
+        	headers: {
+            "Content-Type": "application/json"
+        	},
+        	body: JSON.stringify(updatedSweetObj)
+		})
 }
 
 
 
-export { entries, API };
+export { entries, moods, API };

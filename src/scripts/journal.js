@@ -1,6 +1,13 @@
+//import moodList from "moodList.js"
+import {moods} from "./journalData.js"
+
+
+console.log("hello from journal converter", moods)
+
 
 const HTMLMaker = {
     journalConverter (journalObject) {
+        
 
         const journalHTMLRepresentation = `
         <section class="entryLog">
@@ -10,6 +17,7 @@ const HTMLMaker = {
                     <li>Concepts Covered: ${journalObject.concepts}</li>
                     <li>Journal Entry: ${journalObject.entry}</li>
                     <li>Mood: ${journalObject.mood}</li>
+                    <button id="editEntry--${journalObject.id}">Edit</button>
                 </ul>
             </div>
         </section>`

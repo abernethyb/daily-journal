@@ -31,11 +31,7 @@
                 <fieldset>
                     <label for="mood">Mood:</label>
                     <select name="mood" id="mood">
-                        <option value="happy">Happy</option>
-                        <option value="sad">Sad</option>
-                        <option value="confused">Confused</option>
-                        <option value="tired">Just Plain Tired</option>
-                        <option value="complicated">It's complicated</option>
+                        
                     </select>
                 </fieldset>
             </section>
@@ -49,12 +45,25 @@
         <button value="Record Entry" class="saveEntry">Submit</button>
     </article>
     <hr>
-    <form action="">
-        <p>Search Entries by mood</p>
+    <form>
+        <p>Search Entries by mood:</p>
         <div class="radio__area">
-            <input type="radio" id="happy" name="happy" value="happy">
+            <input type="radio" id="1" name="radio__mood" value="happy">
             <label for="happy">Happy</label>
+
+            <input type="radio" id="2" name="radio__mood" value="sad">
+            <label for="sad">sad</label>
+
+            <input type="radio" id="3" name="radio__mood" value="confused">
+            <label for="confused">confused</label>
+
+            <input type="radio" id="4" name="radio__mood" value="tired">
+            <label for="tired">tired</label>
+
+            <input type="radio" id="5" name="radio__mood" value="complicated">
+            <label for="complicated">complicated</label>
         </div>
+        
     </form>
     <hr>
     <article class="entryLog">
