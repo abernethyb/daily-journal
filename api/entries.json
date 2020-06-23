@@ -1,24 +1,24 @@
 {
   "entries": [
     {
-      "date": "2020-06-23",
-      "concepts": "edit",
-      "entry": "editing",
+      "date": "",
+      "concepts": "",
+      "entry": "",
       "mood": "1",
       "id": 1
     },
     {
-      "date": {},
-      "concepts": {},
-      "entry": {},
-      "mood": {},
+      "date": "",
+      "concepts": "",
+      "entry": "",
+      "mood": "1",
       "id": 2
     },
     {
-      "date": {},
-      "concepts": {},
-      "entry": {},
-      "mood": {},
+      "date": "2020-06-23",
+      "concepts": "",
+      "entry": "",
+      "mood": "5",
       "id": 3
     },
     {
@@ -188,6 +188,13 @@
       "entry": "",
       "mood": "1",
       "id": 27
+    },
+    {
+      "date": "2020-06-23",
+      "concepts": "saving a new entry after introducing edit",
+      "entry": "lorem ipsum and words and such",
+      "mood": "1",
+      "id": 28
     }
   ],
   "moods": [

@@ -82,7 +82,12 @@ document.querySelector(".saveEntry").addEventListener("click", event => {
 // )
 
 
-//event listener for edit
+//event listener for edit lines 92 - 172
+
+
+
+
+
 
 const journalButtonElement = document.querySelector(".entryLog")
 
@@ -97,7 +102,7 @@ journalButtonElement.addEventListener("click", event => {
         const entryToEdit = event.target.id.split("--")[1];
         let formElement = document.querySelector(`.editEntry--${entryToEdit}`)
         console.log(entryToEdit);
-        formElement.innerHTML += `<form action="">
+        formElement.innerHTML += `<form class="editEntryForm" action="">
         
         <section class="editDate">
             <fieldset>
@@ -151,11 +156,14 @@ journalButtonElement.addEventListener("click", event => {
     document.querySelector(".saveEditEntry").addEventListener("click", event => {
         let userEditVariable = userEdit()
         console.log(userEditVariable)
-        API.editEntry(entryToEdit, userEditVariable).then (
+        API.editEntry(entryToEdit, userEditVariable).then(
             () => {
+                //entry is edited at this point
                 API.getJournalData().then(
                     () => {
                         DOMPush.journalList(entries)
+                        document.querySelector(".editEntryForm").innerHTML = ""
+                        console.log("is getJournalData even running?")
                     }
                 )
             }
@@ -192,3 +200,8 @@ journalButtonElement.addEventListener("click", event => {
 //     })
 // }
 // moodList(moods)
+
+
+const editJournal = () => {
+    
+}

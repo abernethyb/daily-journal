@@ -45,7 +45,8 @@ const API = {
             "Content-Type": "application/json"
         	},
         	body: JSON.stringify(editEntryObject)
-		})}
+        }).then(res => res.json())
+    }
 }
 
 
