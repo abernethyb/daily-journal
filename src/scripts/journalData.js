@@ -46,8 +46,13 @@ const API = {
             "Content-Type": "application/json"
         	},
         	body: JSON.stringify(editEntryObject)
-        }).then(res => res.json())
-    }
+        }).then(response => response.json())
+    },
+    deleteEntry: (entryId) => {
+		return fetch(`http://localhost:3000/entries/${entryId}`, {
+			method: "DELETE"
+		}).then(response => response.json());
+	}
 }
 
 
