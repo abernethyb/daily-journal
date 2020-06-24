@@ -6,7 +6,7 @@ const recordEntry = (day, concept, entries, feeling) => ({
     date: day,
     concepts: concept,
     entry: entries,
-    mood: feeling
+    moodId: feeling
 })
 
 export default recordEntry

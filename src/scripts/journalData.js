@@ -7,7 +7,7 @@ let moods = []
 const API = {
     getJournalData () {
         console.log("is getJournalData even running?")
-        return fetch("http://localhost:3000/entries").then(
+        return fetch("http://localhost:3000/entries?_expand=mood").then(
             (response) => {
                 return response.json()
             }

@@ -1,221 +1,25 @@
 {
   "entries": [
     {
-      "date": "",
-      "concepts": "",
-      "entry": "ccccccccccccc",
-      "mood": "1",
+      "date": "2020-06-24",
+      "concepts": "test entrt 1 edited",
+      "entry": "I'm baby shoreditch taxidermy brooklyn, keytar YOLO fam prism disrupt edison bulb man bun messenger bag fashion axe. Listicle ramps vegan, austin gluten-free tumeric cornhole. Authentic yuccie echo park, gastropub 8-bit hoodie distillery tumeric celiac tacos tbh street art. Tumblr everyday carry plaid jianbing, keytar chicharrones ethical tofu before they sold out sartorial cardigan pour-over hexagon kombucha.",
+      "moodId": "4",
       "id": 1
     },
     {
-      "date": "",
-      "concepts": "",
-      "entry": "zzzzzzzzzzzzzzzzzzzzz",
-      "mood": "1",
+      "date": "2020-06-24",
+      "concepts": "2",
+      "entry": "edited",
+      "moodId": "2",
       "id": 2
     },
     {
-      "date": "2020-06-23",
+      "date": "",
       "concepts": "",
       "entry": "",
-      "mood": "5",
+      "moodId": "1",
       "id": 3
-    },
-    {
-      "date": "2020-06-22",
-      "concepts": "test",
-      "entry": "I'm baby schlitz taxidermy crucifix XOXO readymade truffaut tilde, mixtape tbh bushwick viral hexagon bespoke. Austin adaptogen trust fund poke, post-ironic cold-pressed yr gentrify af ugh tbh vexillologist vegan. Waistcoat swag keffiyeh readymade subway tile. Shaman viral adaptogen, skateboard roof party tilde deep v photo booth portland kitsch iPhone VHS normcore. Pour-over yuccie etsy, beard franzen listicle umami meggings sustainable biodiesel +1 fanny pack cred. Neutra VHS poke portland man braid master cleanse.",
-      "mood": "confused",
-      "id": 4
-    },
-    {
-      "date": {},
-      "concepts": {},
-      "entry": {},
-      "mood": {},
-      "id": 5
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "happy",
-      "id": 6
-    },
-    {
-      "date": "2020-06-22",
-      "concepts": "???",
-      "entry": "!!!!!!!!!!!",
-      "mood": "tired",
-      "id": 7
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "?????????????????????????",
-      "mood": "happy",
-      "id": 8
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "happy",
-      "id": 9
-    },
-    {
-      "date": "2020-06-22",
-      "concepts": "test",
-      "entry": "?!?!?!?!?",
-      "mood": "happy",
-      "id": 10
-    },
-    {
-      "date": "2020-06-22",
-      "concepts": "automatic refresh",
-      "entry": "journal entry shows up on page without refreshing.  Added fetch call after post API call.",
-      "mood": "happy",
-      "id": 11
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "happy",
-      "id": 12
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
-      "id": 13
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "5",
-      "id": 14
-    },
-    {
-      "date": "2020-06-23",
-      "concepts": "edit",
-      "entry": "editing stuff.  and more stuff",
-      "mood": "5",
-      "id": 15
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
-      "id": 16
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "3",
-      "id": 17
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "mood",
-      "id": 18
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "mood",
-      "id": 19
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "[object Object]",
-      "id": 20
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
-      "id": 21
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "tired",
-      "mood": "4",
-      "id": 22
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "2",
-      "id": 23
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
-      "id": 24
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
-      "id": 25
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
-      "id": 26
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
-      "id": 27
-    },
-    {
-      "date": "2020-06-23",
-      "concepts": "saving a new entry after introducing edit",
-      "entry": "lorem ipsum and words and such",
-      "mood": "1",
-      "id": 28
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "mood": "1",
-      "id": 29
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "newwwwwww",
-      "mood": "1",
-      "id": 30
-    },
-    {
-      "date": "2020-06-23",
-      "concepts": "aaaaaaaa",
-      "entry": "hu",
-      "mood": "4",
-      "id": 31
     }
   ],
   "moods": [

@@ -16,7 +16,7 @@ const HTMLMaker = {
                     <li>Date: ${journalObject.date}</li>
                     <li>Concepts Covered: ${journalObject.concepts}</li>
                     <li>Journal Entry: ${journalObject.entry}</li>
-                    <li>Mood: ${journalObject.mood}</li>
+                    <li>Mood: ${journalObject.mood.mood}</li>
                     <button id="editEntry--${journalObject.id}">Edit</button>
                 </ul>
             </div>
