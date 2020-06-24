@@ -52,7 +52,7 @@ const API = {
 		return fetch(`http://localhost:3000/entries/${entryId}`, {
 			method: "DELETE"
 		}).then(response => response.json());
-	},
+	}
 }
 
 
