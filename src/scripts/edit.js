@@ -99,7 +99,6 @@ const editJournal = () => {
                     API.getJournalData().then(
                         () => {
                             DOMPush.journalList(entries)
-                            document.querySelector(".editEntryForm").innerHTML = ""
 
                         }
                     )
