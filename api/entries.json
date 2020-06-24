@@ -1,11 +1,47 @@
 {
   "entries": [
     {
-      "date": "2020-06-19",
-      "concepts": "collecting user input",
-      "entry": "Learned about collecting user input.  The user input is collected inside of a click event.  The data is sent through a factory function and then sent to a json file.  I was initially having synchronicity issues where the journal was only posting some of the time; I do not yet fully understand how the fix worked.  I intend this weekend to gain a better understanding of asynchronous code. ",
+      "date": "2020-06-24",
+      "concepts": "test entrt 1 edited",
+      "entry": "I'm baby shoreditch taxidermy brooklyn, keytar YOLO fam prism disrupt edison bulb man bun messenger bag fashion axe. Listicle ramps vegan, austin gluten-free tumeric cornhole. Authentic yuccie echo park, gastropub 8-bit hoodie distillery tumeric celiac tacos tbh street art. Tumblr everyday carry plaid jianbing, keytar chicharrones ethical tofu before they sold out sartorial cardigan pour-over hexagon kombucha.",
+      "moodId": "4",
+      "id": 1
+    },
+    {
+      "date": "2020-06-24",
+      "concepts": "2",
+      "entry": "edited",
+      "moodId": "2",
+      "id": 2
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "",
+      "moodId": "1",
+      "id": 3
+    }
+  ],
+  "moods": [
+    {
       "mood": "happy",
       "id": 1
+    },
+    {
+      "mood": "sad",
+      "id": 2
+    },
+    {
+      "mood": "confused",
+      "id": 3
+    },
+    {
+      "mood": "tired",
+      "id": 4
+    },
+    {
+      "mood": "complicated",
+      "id": 5
     }
   ]
 }
