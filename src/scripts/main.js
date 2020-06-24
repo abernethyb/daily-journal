@@ -5,6 +5,7 @@ import { entries, moods } from "./journalData.js"
 import DOMPush from "./journalList.js"
 import recordEntry from "./createEntry.js"
 import moodData from "./moodList.js"
+import getUserInput from "./input.js"
 //import HTMLMaker from "./journal.js"
 
 /*
@@ -31,15 +32,7 @@ API.getJournalData().then(
     }
 )
 
-const getUserInput = () => {
-    let date = document.querySelector("#date").value
-    let concepts = document.querySelector("#concepts").value
-    let entry = document.querySelector("#entry").value
-    let mood = document.querySelector("#mood").value
-    let newEntry = recordEntry(date, concepts, entry, mood)
-    return newEntry
-    
-}
+
 
 //const container = document.querySelector(".entryForm")
     

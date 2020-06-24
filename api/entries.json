@@ -34,6 +34,20 @@
       "entry": "",
       "moodId": "1",
       "id": 5
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "test after modularizing getUserInput 2",
+      "moodId": "1",
+      "id": 6
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "edit after modularizing getUserInput 2",
+      "moodId": "1",
+      "id": 7
     }
   ],
   "moods": [
