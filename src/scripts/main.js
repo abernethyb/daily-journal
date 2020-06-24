@@ -109,3 +109,5 @@ document.querySelector(".saveEntry").addEventListener("click", event => {
 
 
 editJournal()
+
+
