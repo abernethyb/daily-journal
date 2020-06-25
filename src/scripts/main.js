@@ -52,7 +52,14 @@ API.getJournalData().then(
         radioElements.addEventListener("click", event => {
             const moodFilter = event.target.id
             console.log(moodFilter)
-            document.querySelector(".entryLog").innerHTML = ""
+            if(moodFilter){
+                document.querySelector(".entryLog").innerHTML = ""
+            }
+            //Error message displayed to DOM if button unsuccessfully clicked
+            // else {
+            //     document.querySelector(".entryLog").innerHTML = "<h1>HEY! Careful where you click! It's a Button; try clicking the button.  gah.</h1>"
+            // }
+            
             entries.forEach(
                 (entry) => {
 
